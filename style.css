@@ -1,0 +1,29 @@
+
+table{
+    border: 2px solid rgb(0, 110, 255);
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+}
+td,th{
+    padding: 3px;
+    border:1px solid rgb(192, 22, 22);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(145, 0, 0);
+}
+body{
+    height: 100%;
+    background-color: rgb(206, 206, 206);
+    background-image: url(https://www.ecured.cu/images/thumb/a/ab/F.elconfidencial.com_original_04d_343_4d5_04d3434d5ca4d7679d1d7ee9fa84d5cb.jpg/1024px-F.elconfidencial.com_original_04d_343_4d5_04d3434d5ca4d7679d1d7ee9fa84d5cb.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white
+}
+p{
+    color: rgb(255, 255, 255);
+    font-size: 25px
+}
+.parraforojo{ 
+            color: red;
+}

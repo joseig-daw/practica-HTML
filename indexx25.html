@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h2>What Can JavaScript Do?</h2>
+
+    <p>JavaScript can change HTML attribute values.</p>
+
+    <p>In this case JavaScript changes the value of the src (source) attribute of an image.</p>
+
+    <button id="demo" onmouseover="cambiarAzul()" onmouseout="cambiarGris()" onclick="document.getElementById('myImage').src='descarga.png'">goku normal</button>
+
+    <img id="myImage" src="descarga.png" style="width:500px">
+    
+    <button id="demo" onmouseover="cambiarAzul()" onmouseout="cambiarGris()" onclick="document.getElementById('myImage').src='descarga.jfif'">kamehameha</button>
+    <button id="demo" onmouseover="cambiarAzul()" onmouseout="cambiarGris()" onclick="document.getElementById('myImage').src='joan.jfif'">Joan</button>
+    <script>
+        function cambiarAzul(){
+            document.getElementById("demo").style.background="#e2008b"
+        }
+        function cambiarGris(){
+            document.getElementById("demo").style.background="#ebeaea"
+        }
+    </script>
+</body>
+</html>

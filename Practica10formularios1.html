@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario inicial JoseIgnacio</title>
+</head>
+<body>
+    <form>
+        <h1>Formulario inicial</h1>
+        <label>Nombre: </label><input type="text" placeholder="Jose ignacio" required autofocus autocomplete><br><br>
+        <label> contraseña: </label><input type="password" pattern="[a-z]{3}\d{3}" title='debe contener almenos 3 minusculas y 3 numeros del 0-9'" required placeholder="password"><br><br>
+        <label>Número de telefono: </label><input type="number" placeholder="659301294"><br><br>
+        <label>Correlo electronico: </label><input type="email" required name="user" placeholder="ejemplo@ejemplo.com"><br><br>
+        <label>URL de la pagina web: </label><input type="url" placeholder="http://www.google.com"><br><br>
+        <label>numero de temas: <input type="number" step="2" min="2" max="14" placeholder="2"> (Entre 2 y 14 solo números pares)</label><br><br>
+        <label>Fecha: <input type="date" placeholder="dd/mm/aaaa" min="2012-07-12"> (Fecha mínima 16 de julio 2012)</label><br><br>
+        <label>Elige un color: </label><input type="color"><br><br>
+        <label>Buscar: </label><input type="search"><br><br>
+        <label>Rango de valores: <input type="range" step="1" min="1" max="10"> (Entre 1 y 10)</label><br><br>
+    <fieldset>
+        <legend>Selecciona una prioridad</legend>
+        <input type="radio" name="prioridad" value="baja">
+        <label for="baja">Baja</label><br><br>
+        <input type="radio" name="prioridad" value="media">
+        <label for="media">Media</label><br><br>
+        <input type="radio" name="prioridad" value="alta">
+        <label for="alta">Alta</label><br><br>
+    </fieldset>
+    <fieldset>
+        <legend> Selecciona un tipo de envio:</legend>
+        <input type="checkbox" name="Urgente" value="Urgente">
+        <label for="Urgente">Urgente</label><br><br>
+        <input type="checkbox" name="Con acuse de recibo" value="Con acuse de recibo">
+        <label for="Con acuse de recibo">Con acuse de recibo</label><br><br>
+        <input type="checkbox" name="Contra reembolso" value="Contra reembolso">
+        <label for="Contra reembolso">Contra reembolso</label><br><br>
+    </fieldset><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
